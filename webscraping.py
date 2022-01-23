@@ -25,7 +25,7 @@ sheet = file_obj.active
 
 urls = []
 
-for row in sheet.iter_rows(max_row=25):
+for row in sheet.iter_rows(max_row=1000):
     # for cell in row:
     #     print(cell.value, end=" ")
     # print()
